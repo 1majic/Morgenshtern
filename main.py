@@ -1,7 +1,7 @@
 from random import randint
 import sys
 
-from PyQt5 import uic, QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPainter, QColor, QPen, QPixmap, QBrush
 from PyQt5.QtWidgets import QApplication, QMainWindow, QGridLayout
@@ -30,7 +30,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-        self.pushButton.setText(_translate("Form", "Ожелтить"))
+        self.pushButton.setText(_translate("Form", "Очуметь"))
 
 
 class MyWidget(QMainWindow, Ui_Form):
